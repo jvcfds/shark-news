@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Paleta Shark News */
+:root {
+  --color-bg: #011b1e;   /* Deep Foundation */
+  --green-1: #01292D;    /* Legacy Forest   */
+  --green-2: #073B3E;    /* Imperial Green  */
+  --green-3: #00494D;    /* Prestige Teal   */
+  --gold:    #B97E68;    /* Crown Gold      */
+}
+
+body {
+  background: var(--color-bg);
+  color: #ffffff;
+}
